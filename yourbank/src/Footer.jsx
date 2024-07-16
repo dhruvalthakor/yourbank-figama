@@ -3,6 +3,7 @@ import "./Footer.css"
 import AbstractDesign from "./assets/AbstractDesign1.png"
 function Footer() {
   return (
+    <>
     <div className="CtaSection">
     <div className="AbstractDesign"><img src={AbstractDesign} alt="" /></div>
     <div className="TextContainer">
@@ -16,6 +17,7 @@ function Footer() {
         <div className="Text">Open Account</div>
     </div>
 </div>
+</>
   )
 }
 
